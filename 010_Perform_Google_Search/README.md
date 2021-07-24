@@ -5,60 +5,33 @@
 <!--<img src="https://badges.pufler.dev/contributors/milaan9/01_Python_Introduction?size=50&padding=5&bots=true" alt="milaan9"/>-->
  
  
-# Generate QR Code
+# Perform Google Search
 
-In this class, you'll learn how to generate QR Code.
-
-<p align="center">  
- <img src="githubID.png" width="200"/>
-</p>                                                             
+In this class, you'll learn how to perform google search using python                                                            
 
 
 ## Pre-requisites:
 
 1.  <b> Python Basics </b>
-2.  <b> QR Code Basics </b>
-3.  <b> pyqrcode module </b>
+2.  <b> pywhatkit module </b>
 
 ---
 
-### 1. What is QR Code?
-Introduction
-QR is short for Quick Response. A QR code is a type of matrix barcode first designed in 1994 for the automotive industry in Japan. A barcode is a machine-readable optical label that contains information about the item to which it is attached.
-
-### 2. QR Code vs Barcode
-While QR Codes and Barcodes are similar in practice, QR Codes contain more information because they have the ability to hold information both horizontally and vertically.
-
-Barcodes only use horizontal information.
-
-### 3. Types of QR Code:
-#### 3.1. Static QR Code:
-A Static QR Code contains information that is fixed and uneditable once the Code has been generated.
-
-Usecases:
- - QR Codes in business cards or product packaging
- - QR Codes for personal use like a party invitation
- - QR Codes for Gyms
-
-#### 3.2. Dynamic QR Code:
-Dynamic QR Codes allow you to update, edit and modify the type of the QR Code however many times you need i.e. the content is editable.
-
-Usecases:
- - QR Codes for Coupons
- - QR Codes for Social media
-
----
 
 ## Install Necessary Modules:
 
 Open your [![Anaconda](https://img.shields.io/badge/Anaconda-342B029.svg?&style=flate&logo=anaconda&logoColor=white)](https://www.continuum.io/downloads) Prompt and type and run the following command (individually):
 
- -       pip install pyqrcode
-       
- -       pip install pypng     
+ -       pip install pywhatkit  
  
  
-**`pyqrcode`** module is used to create QR Codes. It is designed to be as simple and as possible. It does this by using sane defaults and autodetection to make creating a QR Code very simple.
+**[`pywhatkit`](https://pypi.org/project/pywhatkit/)** is a Python library with various helpful features. It is an easy-to-use library that does not require you to do some additional setup.
+
+This module has lots of other cool features as well. Feel free and go-ahead to explore them or if you wish I can write an article about them.
+
+If you wish to know more about it, you can refer to **[pywhatkit Module Documentation](https://github.com/Ankit404butfound/PyWhatKit)**.
+
+Now that you are familiar with Google search basics and have acquired basic knowledge of pywhatkit module, we can move forward to the coding section.
 
 Once Installed now we can import it inside our python code.
 
