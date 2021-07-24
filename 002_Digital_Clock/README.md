@@ -28,4 +28,4 @@ If you like this tutorial, please [give it a ⭐ star](https://github.com/milaan
 
 You may use this tutorial freely at your own risk. See [LICENSE](https://github.com/milaan9/91_Python_Mini_Projects/blob/main/LICENSE).
 
-Copyright (c) 2020 Dr. Milan Parmar
+Copyright (c) 2020 Dr. Milaan Parmar
