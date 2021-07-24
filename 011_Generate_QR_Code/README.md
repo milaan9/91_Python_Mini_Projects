@@ -21,16 +21,17 @@ Barcodes only use horizontal information.
 A Static QR Code contains information that is fixed and uneditable once the Code has been generated.
 
 Usecases:
-QR Codes in business cards or product packaging
-QR Codes for personal use like a party invitation
-QR Codes for Gyms
+ - QR Codes in business cards or product packaging
+ - QR Codes for personal use like a party invitation
+ - QR Codes for Gyms
 
 #### 3.2. Dynamic QR Code:
 Dynamic QR Codes allow you to update, edit and modify the type of the QR Code however many times you need i.e. the content is editable.
 
 Usecases:
-QR Codes for Coupons
-QR Codes for Social media
+ - QR Codes for Coupons
+ - QR Codes for Social media
+
 Now that you have a basic understanding of what a QR code is, let's create one!
 
 
