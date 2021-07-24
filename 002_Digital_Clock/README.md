@@ -25,7 +25,7 @@ In this class, you'll learn how to create digital clock using python
 
 ## Install Necessary Modules:
 
-Since tkinter and tkinter.ttk modules are in-built modules, hence we do not need to install them separately.
+Since **`tkinter`** and **`tkinter.ttk`** modules are in-built modules, hence we do not need to install them separately.
 
 ---
 
