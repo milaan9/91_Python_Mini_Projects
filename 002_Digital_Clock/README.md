@@ -10,7 +10,7 @@
 In this class, you'll learn how to create digital clock using python   
 
 <p align="center">  
- <img src="dclock.png" width="200"/>
+ <img src="dclock.png" width="350"/>
 </p>  
 
 
