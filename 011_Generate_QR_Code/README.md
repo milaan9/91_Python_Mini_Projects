@@ -9,9 +9,9 @@
 
 ## Pre-requisites:
 
- <b>1. Python Basics </b>
- <b>2. QR Code Basics </b>
- <b>3. pyqrcode module </b>
+1.  <b>Python Basics </b>
+2.  <b>QR Code Basics </b>
+3.  <b>pyqrcode module </b>
 
 
 ---
