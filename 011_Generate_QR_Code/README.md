@@ -7,7 +7,7 @@
  
 # Generate QR Code
 
-In this class, you'll learn how to generate [QR Code](/githubID.png).
+In this class, you'll learn how to generate ![QR Code](githubID.png).
 
 
 
