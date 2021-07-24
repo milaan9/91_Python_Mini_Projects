@@ -34,7 +34,7 @@ Supported Languages By Pyjokes
   - German – ‘de’
   - Galician – ‘gl’
   - Basque – ‘eu’
-  - 
+  
 Categories Included In Pyjokes
   - For geeky jokes -’neutral’ (It is chosen by default)
   - For Chris Norris Jokes – ‘chuck’.
