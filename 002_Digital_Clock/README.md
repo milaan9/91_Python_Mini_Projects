@@ -1,19 +1,29 @@
 <p align="center"> 
 <a href="https://github.com/milaan9"><img src="https://img.shields.io/static/v1?logo=github&label=maintainer&message=milaan9&color=ff3300" alt="Last Commit"/></a> 
-<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fmilaan9%2F91_Python_Mini_Projects&count_bg=%231DC92C&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=views&edge_flat=false"/></a>
+<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fmilaan9%2Ftree/main/010_Perform_Google_Search&count_bg=%231DC92C&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=views&edge_flat=false"/></a>
 </p> 
 <!--<img src="https://badges.pufler.dev/contributors/milaan9/01_Python_Introduction?size=50&padding=5&bots=true" alt="milaan9"/>-->
  
  
-# Digital Clock with Python
+# Create Digital Clock
 
-Pre-requisites:
-==========================
+In this class, you'll learn how to create digital clock using python                                                            
 
-```
-- Python
-- Tkinter
-```
+
+## Pre-requisites:
+
+1.  <b> Python Basics </b>
+2.  <b> tkinter module </b>
+3.  <b> tkinter.ttk module </b>
+
+---
+
+
+## Install Necessary Modules:
+
+Since tkinter and tkinter.ttk modules are in-built modules, hence we do not need to install them separately.
+
+---
 
 ## Frequently asked questions ❔
 
@@ -41,6 +51,7 @@ This will clear all the outputs and now you can understand each statement and le
 
 If you have git and you know how to use it, you can also clone the repository instead of downloading a zip and extracting it. An advantage with doing it this way is that you don't need to download the whole tutorial again to get the latest version of it, all you need to do is to pull with git and run ipython notebook again.
 
+---
 
 ## Authors ✍️
 
@@ -52,6 +63,7 @@ If you have trouble with this tutorial please tell me about it by [Create an iss
 
 If you like this tutorial, please [give it a ⭐ star](https://github.com/milaan9/91_Python_Mini_Projects).
 
+---
 
 ## Licence 📜
 
@@ -59,6 +71,7 @@ You may use this tutorial freely at your own risk. See [LICENSE](https://github.
 
 Copyright (c) 2020 Dr. Milaan Parmar
 
+---
 
 <div align="center">
 <h3> Connect with me<a href="https://gifyu.com/image/Zy2f"><img src="https://github.com/milaan9/milaan9/blob/main/Handshake.gif" width="50px"></a>
@@ -69,3 +82,4 @@ Copyright (c) 2020 Dr. Milaan Parmar
     <a href="https://www.facebook.com/milaanparmar" target="_blank"><img alt="Facebook" width="25px" src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg"></a>
     <a href="mailto:milaanparmar9@gmail.com" target="_blank"><img alt="Gmail" width="25px" src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Gmail.svg"></a> 
 </p> 
+{"mode":"full","isActive":false}
