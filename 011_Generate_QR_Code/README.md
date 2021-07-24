@@ -46,7 +46,7 @@ Usecases:
 
 ## Install Necessary Modules:
 
-1. Open your [![Anaconda](https://img.shields.io/badge/Anaconda-342B029.svg?&style=flate&logo=anaconda&logoColor=white)](https://www.continuum.io/downloads) Prompt and type and run the following command (individually):
+Open your [![Anaconda](https://img.shields.io/badge/Anaconda-342B029.svg?&style=flate&logo=anaconda&logoColor=white)](https://www.continuum.io/downloads) Prompt and type and run the following command (individually):
 
  -       pip install pyqrcode
        
