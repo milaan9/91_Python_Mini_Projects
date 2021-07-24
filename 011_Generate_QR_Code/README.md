@@ -7,7 +7,7 @@
  
 # Digital Clock with Python
 
-Pre-requisites:
+## Pre-requisites:
 ==========================
 ```
 1. Python Basics
@@ -15,7 +15,7 @@ Pre-requisites:
 3. pyqrcode module
 ```
 
-Install Modules:
+## Install Modules:
 ==========================
 1. Open your [![Anaconda](https://img.shields.io/badge/Anaconda-342B029.svg?&style=flate&logo=anaconda&logoColor=white)](https://www.continuum.io/downloads) Prompt and type and run (individually):
 
