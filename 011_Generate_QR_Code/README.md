@@ -7,7 +7,7 @@
  
 # Generate QR Code
 
-In this class, you'll learn how to generate QR Code.
+In this class, you'll learn how to generate QR Code using python.
 
 <p align="center">  
  <img src="githubID.png" width="200"/>
