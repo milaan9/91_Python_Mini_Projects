@@ -11,7 +11,7 @@ In this class, you'll learn how to generate QR Code.
 
 
  
- <img src="githubID.png width="30"/>
+ <img src="githubID.png" width="30"/>
                                   
  ![QR Code](githubID.png)                                 
                                   
