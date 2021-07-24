@@ -13,6 +13,17 @@ Pre-requisites:
 - Python
 - Tkinter
 ```
+## Authors ✍️
+
+I'm Dr. Milaan Parmar and I have written this tutorial. If you think you can add/correct/edit and enhance this tutorial you are most welcome🙏
+
+See [github's contributors page](https://github.com/milaan9/91_Python_Mini_Projects/graphs/contributors) for details.
+
+If you have trouble with this tutorial please tell me about it by [Create an issue on GitHub](https://github.com/milaan9/91_Python_Mini_Projects/issues/new). and I'll make this tutorial better. This is probably the best choice if you had trouble following the tutorial, and something in it should be explained better. You will be asked to create a GitHub account if you don't already have one.
+
+If you like this tutorial, please [give it a ⭐ star](https://github.com/milaan9/91_Python_Mini_Projects).
+
+
 ## Licence 📜
 
 You may use this tutorial freely at your own risk. See [LICENSE](https://github.com/milaan9/91_Python_Mini_Projects/blob/main/LICENSE).
