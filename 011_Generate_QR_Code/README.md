@@ -9,17 +9,9 @@
 
 In this class, you'll learn how to generate QR Code.
 
-
 <p align="center">  
- <img src="githubID.png" width="100"/>
-</p>                                   
- ![QR Code](githubID.png)                                 
-                                  
- 
-                                  
-
-            
-                                  
+ <img src="githubID.png" width="200"/>
+</p>                                                             
 
 
 ## Pre-requisites:
