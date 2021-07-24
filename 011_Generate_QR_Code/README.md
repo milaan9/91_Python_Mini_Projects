@@ -9,7 +9,7 @@
 
 In this class, you'll learn how to generate ![QR Code](githubID.png).
 
-
+![QR Code](githubID.png).
 
 ## Pre-requisites:
 
