@@ -7,6 +7,16 @@
  
 # Generate QR Code
 
+In this class, you'll learn how to generate QR Code.
+
+## Pre-requisites:
+
+1.  <b> Python Basics </b>
+2.  <b> QR Code Basics </b>
+3.  <b> pyqrcode module </b>
+
+---
+
 ### 1. What is QR Code?
 Introduction
 QR is short for Quick Response. A QR code is a type of matrix barcode first designed in 1994 for the automotive industry in Japan. A barcode is a machine-readable optical label that contains information about the item to which it is attached.
@@ -32,26 +42,20 @@ Usecases:
  - QR Codes for Coupons
  - QR Codes for Social media
 
-Now that you have a basic understanding of what a QR code is, let's create one!
-
-
-## Pre-requisites:
-
-1.  <b> Python Basics </b>
-2.  <b> QR Code Basics </b>
-3.  <b> pyqrcode module </b>
-
-
 ---
 
-## Install Modules:
+## Install Necessary Modules:
 
 1. Open your [![Anaconda](https://img.shields.io/badge/Anaconda-342B029.svg?&style=flate&logo=anaconda&logoColor=white)](https://www.continuum.io/downloads) Prompt and type and run the following command (individually):
 
  -       pip install pyqrcode
        
  -       pip install pypng     
-       
+ 
+ 
+**`pyqrcode`** module is used to create QR Codes. It is designed to be as simple and as possible. It does this by using sane defaults and autodetection to make creating a QR Code very simple.
+
+Once Installed now we can import it inside our python code.
 ---
 
 ## Frequently asked questions ❔
