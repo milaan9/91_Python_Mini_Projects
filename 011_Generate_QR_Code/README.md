@@ -15,7 +15,7 @@
 3. pyqrcode module
 ```
 
-----
+---
 
 ## Install Modules:
 
@@ -25,8 +25,7 @@
        
        pip install pypng
        
-
-
+---
 
 ## Frequently asked questions ❔
 
@@ -54,6 +53,7 @@ This will clear all the outputs and now you can understand each statement and le
 
 If you have git and you know how to use it, you can also clone the repository instead of downloading a zip and extracting it. An advantage with doing it this way is that you don't need to download the whole tutorial again to get the latest version of it, all you need to do is to pull with git and run ipython notebook again.
 
+---
 
 ## Authors ✍️
 
@@ -65,6 +65,7 @@ If you have trouble with this tutorial please tell me about it by [Create an iss
 
 If you like this tutorial, please [give it a ⭐ star](https://github.com/milaan9/91_Python_Mini_Projects).
 
+---
 
 ## Licence 📜
 
@@ -72,6 +73,7 @@ You may use this tutorial freely at your own risk. See [LICENSE](https://github.
 
 Copyright (c) 2020 Dr. Milaan Parmar
 
+---
 
 <div align="center">
 <h3> Connect with me<a href="https://gifyu.com/image/Zy2f"><img src="https://github.com/milaan9/milaan9/blob/main/Handshake.gif" width="50px"></a>
