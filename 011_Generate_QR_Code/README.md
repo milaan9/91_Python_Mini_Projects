@@ -21,9 +21,11 @@
 
 1. Open your [![Anaconda](https://img.shields.io/badge/Anaconda-342B029.svg?&style=flate&logo=anaconda&logoColor=white)](https://www.continuum.io/downloads) Prompt and type and run (individually):
 
-       `pip install pyqrcode`
+       pip install pyqrcode
        
-       `pip install pypng`      
+and
+       
+       pip install pypng      
        
 ---
 
