@@ -7,6 +7,33 @@
  
 # Generate QR Code
 
+### What is QR Code?
+Introduction
+QR is short for Quick Response. A QR code is a type of matrix barcode first designed in 1994 for the automotive industry in Japan. A barcode is a machine-readable optical label that contains information about the item to which it is attached.
+
+### QR Code vs Barcode
+While QR Codes and Barcodes are similar in practice, QR Codes contain more information because they have the ability to hold information both horizontally and vertically.
+
+Barcodes only use horizontal information.
+
+### Types of QR Code:
+#### 1. Static QR Code:
+A Static QR Code contains information that is fixed and uneditable once the Code has been generated.
+
+Usecases:
+QR Codes in business cards or product packaging
+QR Codes for personal use like a party invitation
+QR Codes for Gyms
+
+#### 2. Dynamic QR Code:
+Dynamic QR Codes allow you to update, edit and modify the type of the QR Code however many times you need i.e. the content is editable.
+
+Usecases:
+QR Codes for Coupons
+QR Codes for Social media
+Now that you have a basic understanding of what a QR code is, let's create one!
+
+
 ## Pre-requisites:
 
 1.  <b> Python Basics </b>
