@@ -7,7 +7,7 @@
  
 # Perform Google Search
 
-In this class, you'll learn how to perform google search using python                                                            
+In this class, you'll learn how to convert image to an ASCII symbols.                                                        
 
 
 ## Pre-requisites:
@@ -17,6 +17,14 @@ In this class, you'll learn how to perform google search using python
 
 ---
 
+### What is ASCII?
+
+**[ASCII](https://en.wikipedia.org/wiki/ASCII)**, acronym of American Standard Code for Information Interchange.
+
+ASCII is a character encoding standard for electronic communication. ASCII codes represent text in computers, telecommunications equipment, and other devices.
+
+
+---
 
 ## Install Necessary Modules:
 
