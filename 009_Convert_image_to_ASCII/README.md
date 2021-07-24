@@ -5,9 +5,13 @@
 <!--<img src="https://badges.pufler.dev/contributors/milaan9/01_Python_Introduction?size=50&padding=5&bots=true" alt="milaan9"/>-->
  
  
-# Perform Google Search
+# Convert Imane to ASCII Symbols
 
-In this class, you'll learn how to convert image to an ASCII symbols.                                                        
+In this class, you'll learn how to convert image to an ASCII symbols.    
+
+<p align="center">  
+ <img src="result.png" width="550"/>
+</p> 
 
 
 ## Pre-requisites:
