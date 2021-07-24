@@ -8,7 +8,7 @@
 <img src="https://img.shields.io/github/repo-size/milaan9/91_Python_Mini_Projects/edit/main/002_Digital_Clock.svg?colorB=CC66FF&style=flat" alt="Size"/>
 <a href="https://github.com/milaan9/91_Python_Mini_Projects/edit/main/002_Digital_Clock/pulls"><img src="https://img.shields.io/github/issues-pr/milaan9/91_Python_Mini_Projects/edit/main/002_Digital_Clock.svg?colorB=yellow&style=flat" alt="Pull Requests Badge"/></a>
 <a href="https://github.com/milaan9/91_Python_Mini_Projects/edit/main/002_Digital_Clock/issues"><img src="https://img.shields.io/github/issues/milaan9/91_Python_Mini_Projects/edit/main/002_Digital_Clock.svg?colorB=yellow&style=flat" alt="Issues Badge"/></a>
-<img src="https://img.shields.io/github/languages/top/milaan9/91_Python_Mini_Projects/edit/main/002_Digital_Clock.svg?colorB=996600&style=flat" alt="Language"/> </a> 
+<img src="https://img.shields.io/github/languages/top/milaan9/91_Python_Mini_Projects/tree/main/002_Digital_Clock.svg?colorB=996600&style=flat" alt="Language"/> </a> 
 </p> 
 <!--<img src="https://badges.pufler.dev/contributors/milaan9/01_Python_Introduction?size=50&padding=5&bots=true" alt="milaan9"/>-->
 
