@@ -29,7 +29,7 @@ Go [here](https://github.com/milaan9/01_Python_Introduction) if you aren't here 
     
 2. Click the big green "Clone or download" button in the top right of the page, then click "[Download ZIP](https://github.com/milaan9/91_Python_Mini_Projects/archive/refs/heads/main.zip)".
 
-    ![Download ZIP](91_Python_Mini_Projects/img/dnld_rep.png)
+    ![Download ZIP](https://github.com/milaan9/91_Python_Mini_Projects/blob/main/img/dnld_rep.png)
 
 3. Extract the ZIP and open it. Unfortunately I don't have any more specific instructions because how exactly this is done depends on which operating system you run.
     
