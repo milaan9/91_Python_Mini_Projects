@@ -17,7 +17,7 @@ In this class, you'll learn how to find IP address using python
 
 ---
 
-### What is IP address?:
+### What is IP address?
 
 **[IP address](https://en.wikipedia.org/wiki/IP_address)** stands for Internet Protocol address, is a numerical label assigned to each device connected to a **[computer network](https://en.wikipedia.org/wiki/Computer_network)** that uses the **[Internet Protocol](https://en.wikipedia.org/wiki/Internet_Protocol)** for communication.
 
