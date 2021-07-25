@@ -25,7 +25,7 @@ In this class, you'll learn how to Convert IPython to PDF using python.
 
 ## Install Necessary Modules:
 
-Open your [![Anaconda](https://img.shields.io/badge/Anaconda-342B029.svg?&style=flate&logo=anaconda&logoColor=white)](https://www.continuum.io/downloads) Prompt and type and run the following command (individually):
+Open your [![Anaconda](https://img.shields.io/badge/Anaconda-342B029.svg?&style=flate&logo=anaconda&logoColor=white)](https://www.continuum.io/downloads) Prompt <img alt="propmt" src="https://img.shields.io/badge/-___-000000?style=flat-square&logo=Plex&logoColor=white"></a> and type and run the following command (individually):
 
  -       pip install -U notebook-as-pdf
        
