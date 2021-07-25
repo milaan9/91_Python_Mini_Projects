@@ -14,7 +14,7 @@ In this class, you'll learn how to convert .py to .exe file format using a simpl
 </p>  
 
 
-## Pre-requisites:
+## Prerequisites:
 
 1.  <b> Python Basics </b>
 2.  <b> auto-py-to-exe module </b>
