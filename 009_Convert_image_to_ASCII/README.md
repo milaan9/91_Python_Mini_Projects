@@ -14,7 +14,7 @@ In this class, you'll learn how to convert image to an ASCII symbols.
 </p> 
 
 
-## Pre-requisites:
+## Prerequisites:
 
 1.  <b> Python Basics </b>
 2.  <b> pywhatkit module </b>
