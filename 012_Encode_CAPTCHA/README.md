@@ -40,7 +40,7 @@ The most common form is Image CAPTCHA. You are shown an image and if you are a r
 The CAPTCHA presents characters in a way that is alienated and requires interpretation. Alienation can involve scaling, rotation, distorting characters. It can also involve overlapping characters with graphic elements such as colour, background noise, lines, arcs, or dots. This alienation provides protection against bots with insufficient text recognition algorithms but can also be difficult for humans to interpret.
 
 <p align="center">  
- <img src="CAPTCHA_1.png" width="200"/>
+ <img src="CAPTCHA_1.png" width="500"/>
 </p>  
 
 #### 2. Audio CAPTCHA
