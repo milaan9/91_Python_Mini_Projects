@@ -44,11 +44,11 @@ It can serve several purposes, most popular ones are Investment Decision Making,
 We will use **[Worldometer](https://www.worldometers.info/coronavirus/#countries)** website to fetch the data becasue we are interested in the data contained in a table at Worldometer’s website, where it lists all the countries together with their current reported coronavirus cases, new cases for the day, total deaths, new deaths for the day, etc
 
 <p align="center">  
- <img src="wordometer1.png" width="500"/>
+ <img src="wordometer1.png" width="600"/>
 </p>  
 
 <p align="center">  
- <img src="wordometer2.png" width="500"/>
+ <img src="wordometer2.png" width="900"/>
 </p>  
 
 ### 3. HTML
