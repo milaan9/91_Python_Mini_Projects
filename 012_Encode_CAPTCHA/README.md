@@ -56,8 +56,6 @@ Open your [![Anaconda](https://img.shields.io/badge/Anaconda-342B029.svg?&style=
 
  -       pip install captcha  
  
- 
-**`pyqrcode`** module is used to create QR Codes. It is designed to be as simple and as possible. It does this by using sane defaults and autodetection to make creating a QR Code very simple.
 
 Once Installed now we can import it inside our python code.
 
