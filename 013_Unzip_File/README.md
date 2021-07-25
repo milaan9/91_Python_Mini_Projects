@@ -19,9 +19,9 @@ In this class, you'll learn how to Unzip File using python
 
 ### What is Zip file?
 
-**ZIP is an archive file format that supports lossless data compression. A ZIP file may contain one or more files or directories that may have been compressed.**
+**[ZIP](https://en.wikipedia.org/wiki/ZIP_%28file_format%29)** is an archive file format that supports lossless data compression. A ZIP file may contain one or more files or directories that may have been compressed.
 
-**[ZIP File](https://en.wikipedia.org/wiki/ZIP_%28file_format%29)** can come handy for a lot different things, we make use of it on a regular basis.
+ZIP files can come handy for a lot different things, we make use of it on a regular basis.
 
 Uses for Zip File:
 
