@@ -14,7 +14,7 @@ In this class, you'll learn how to create digital clock using python
 </p>  
 
 
-## Pre-requisites:
+## Prerequisites:
 
 1.  <b> Python Basics </b>
 2.  <b> tkinter module </b>
