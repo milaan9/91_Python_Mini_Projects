@@ -10,7 +10,7 @@
 In this class, you'll learn how to create audiobook from PDF using python                                                            
 
 
-## Pre-requisites:
+## Prerequisites:
 
 1.  <b> Python Basics </b>
 2.  <b> PyPDF2 module </b>
