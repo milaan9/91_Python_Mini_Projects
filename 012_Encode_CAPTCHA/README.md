@@ -7,7 +7,7 @@
  
 #  Encode and Decode CAPTCHA
 
-In this class, you'll learn how to encode and decode CAPTCHA using python.                                                        
+In this class, you'll learn how to encode CAPTCHA using python.                                                        
 
 
 ## Prerequisites:
