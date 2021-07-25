@@ -14,7 +14,7 @@ In this class, you'll learn how to Convert IPython to PDF using python.
 </p>                                                             
 
 
-## Pre-requisites:
+## Prerequisites:
 
 1.  <b> Python Basics </b>
 2.  <b> -U notebook-as-pdf Basics </b>
