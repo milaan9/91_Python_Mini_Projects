@@ -5,13 +5,9 @@
 <!--<img src="https://badges.pufler.dev/contributors/milaan9/01_Python_Introduction?size=50&padding=5&bots=true" alt="milaan9"/>-->
  
  
-# Generate QR Code
+#  Encode and Decode CAPTCHA
 
-In this class, you'll learn how to encode and decode CAPTCHA using python.
-
-<p align="center">  
- <img src="githubID.png" width="200"/>
-</p>                                                             
+In this class, you'll learn how to encode and decode CAPTCHA using python.                                                        
 
 
 ## Prerequisites:
@@ -42,6 +38,10 @@ The most common form is Image CAPTCHA. You are shown an image and if you are a r
 
 #### 1. Image CAPTCHA
 The CAPTCHA presents characters in a way that is alienated and requires interpretation. Alienation can involve scaling, rotation, distorting characters. It can also involve overlapping characters with graphic elements such as colour, background noise, lines, arcs, or dots. This alienation provides protection against bots with insufficient text recognition algorithms but can also be difficult for humans to interpret.
+
+<p align="center">  
+ <img src="githubID.png" width="200"/>
+</p>  
 
 #### 2. Audio CAPTCHA
 Audio CAPTCHAs were developed as an alternative that grants accessibility to visually impaired users. These CAPTCHAs are often used in combination with text or image-based CAPTCHAs. Audio CAPTCHAs present an audio recording of a series of letters or numbers which a user then enters.
