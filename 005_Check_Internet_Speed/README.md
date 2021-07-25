@@ -10,7 +10,7 @@
 In this class, you'll learn how to check internet speed using python                                                            
 
 
-## Pre-requisites:
+## Prerequisites:
 
 1.  <b> Python Basics </b>
 2.  <b> speedtest-cli module </b>
