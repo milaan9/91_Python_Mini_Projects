@@ -14,7 +14,7 @@ In this class, you'll learn how to generate QR Code using python.
 </p>                                                             
 
 
-## Pre-requisites:
+## Prerequisites:
 
 1.  <b> Python Basics </b>
 2.  <b> QR Code Basics </b>
