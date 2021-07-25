@@ -10,7 +10,7 @@
 In this class, you'll learn how to generate random jokes using python                                                            
 
 
-## Pre-requisites:
+## Prerequisites:
 
 1.  <b> Python Basics </b>
 2.  <b> pyjokes module </b>
