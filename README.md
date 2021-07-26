@@ -15,7 +15,7 @@
  
 # 91_Python_Mini_Projects
 
-This repository contains all the mini-projects that I have worked tthough python.
+This repository contains all the mini-projects that I've worked on python.
 
 | **No.** | **Name** | 
 | ------- | -------- | 
