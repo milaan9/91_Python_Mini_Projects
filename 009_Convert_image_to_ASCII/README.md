@@ -43,8 +43,6 @@ This module has lots of other cool features as well. Feel free and go-ahead to e
 
 If you wish to know more about it, you can refer to **[pywhatkit Module Documentation](https://github.com/Ankit404butfound/PyWhatKit)**.
 
-Now that you are familiar with Google search basics and have acquired basic knowledge of pywhatkit module, we can move forward to the coding section.
-
 Once Installed now we can import it inside our python code.
 
 ---
