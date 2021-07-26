@@ -34,3 +34,4 @@ This repository contains all the mini-projects that I've worked on python.
 |	13	| **[013_Unzip_File](https://github.com/milaan9/91_Python_Mini_Projects/tree/main/013_Unzip_File)** | 
 |	14	| **[014_Run_JavaScript_in_Python](https://github.com/milaan9/91_Python_Mini_Projects/tree/main/014_Run_JavaScript_in_Python)** | 
 |	15	| **[015_Web_Scraping_Covid-19_Data](https://github.com/milaan9/91_Python_Mini_Projects/tree/main/015_Web_Scraping_Covid-19_Data)** | 
+|	16	| **[016_Web_Scraping_CoWin_Vaccine_Slots](https://github.com/milaan9/91_Python_Mini_Projects/tree/main/016_Web_Scraping_CoWin_Vaccine_Slots)** | 
