@@ -36,8 +36,6 @@ Open your [![Anaconda](https://img.shields.io/badge/Anaconda-342B029.svg?&style=
  
 **[`requests`](https://docs.python-requests.org/en/master/)** is a simple, yet elegant HTTP library. It allows you to send HTTP/1.1 requests extremely easily. Requests officially support Python 2.7 & 3.5+.
 
-Now that you are familiar with Google search basics and have acquired basic knowledge of pywhatkit module, we can move forward to the coding section.
-
 Once Installed now we can import it inside our python code.
 
 ---
