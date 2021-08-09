@@ -1,0 +1,283 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "<small><small><i>\n",
+    "All the IPython Notebooks in **Python Mini-Projects** series by Dr. Milaan Parmar are available @ **[GitHub](https://github.com/milaan9/91_Python_Mini_Projects)**\n",
+    "</i></small></small>"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Python Program to Check Weather Forecast with GUI"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "metadata": {
+    "ExecuteTime": {
+     "end_time": "2021-08-09T13:55:57.784611Z",
+     "start_time": "2021-08-09T13:55:45.107886Z"
+    },
+    "scrolled": true
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "{'coord': {'lon': -74.006, 'lat': 40.7143}, 'weather': [{'id': 804, 'main': 'Clouds', 'description': 'overcast clouds', 'icon': '04d'}], 'base': 'stations', 'main': {'temp': 74.7, 'feels_like': 75.76, 'temp_min': 70.14, 'temp_max': 79.88, 'pressure': 1020, 'humidity': 83}, 'visibility': 10000, 'wind': {'speed': 1.01, 'deg': 142, 'gust': 1.99}, 'clouds': {'all': 90}, 'dt': 1628517149, 'sys': {'type': 2, 'id': 2039034, 'country': 'US', 'sunrise': 1628503242, 'sunset': 1628553742}, 'timezone': -14400, 'id': 5128581, 'name': 'New York', 'cod': 200}\n"
+     ]
+    }
+   ],
+   "source": [
+    "'''\n",
+    "Python Program to Check Weather Forecast with icons\n",
+    "'''\n",
+    "\n",
+    "import tkinter as tk\n",
+    "import requests\n",
+    "from PIL import Image, ImageTk\n",
+    "\n",
+    "app = tk.Tk()\n",
+    "\n",
+    "HEIGHT = 300\n",
+    "WIDTH = 500\n",
+    "\n",
+    "def format_response(weather_json):\n",
+    "    try:\n",
+    "        city = weather_json['name']\n",
+    "        conditions = weather_json['weather'][0]['description']\n",
+    "        temp = weather_json['main']['temp']\n",
+    "        final_str = 'City: %s \\nConditions: %s \\nTemperature (°F): %s' % (city, conditions, temp)\n",
+    "    except:\n",
+    "        final_str = 'There was a problem retrieving that information'\n",
+    "    #final_str = 'hello'\n",
+    "    return final_str\n",
+    "\n",
+    "\n",
+    "def get_weather(city):\n",
+    "    weather_key = 'edffd1bf975a74d5d10e58c5ac8be2d3'\n",
+    "    url = 'https://api.openweathermap.org/data/2.5/weather'\n",
+    "    params = {'APPID': 'edffd1bf975a74d5d10e58c5ac8be2d3', 'q': city, 'units':'imperial'}\n",
+    "    response = requests.get(url, params=params)\n",
+    "    print(response.json())\n",
+    "    weather_json = response.json()\n",
+    "\n",
+    "    results['text'] = format_response(response.json())\n",
+    "\n",
+    "    icon_name = weather_json['weather'][0]['icon']\n",
+    "    open_image(icon_name)\n",
+    "\n",
+    "def open_image(icon):\n",
+    "    size = int(lower_frame.winfo_height()*0.25)\n",
+    "    img = ImageTk.PhotoImage(Image.open('./img/'+icon+'.png').resize((size, size)))\n",
+    "    weather_icon.delete(\"all\")\n",
+    "    weather_icon.create_image(0,0, anchor='nw', image=img)\n",
+    "    weather_icon.image = img\n",
+    "\n",
+    "C = tk.Canvas(app, height=HEIGHT, width=WIDTH)\n",
+    "background_image= tk.PhotoImage(file='img\\landscape.png')\n",
+    "background_label = tk.Label(app, image=background_image)\n",
+    "background_label.place(x=0, y=0, relwidth=1, relheight=1)\n",
+    "\n",
+    "C.pack()\n",
+    "\n",
+    "frame = tk.Frame(app,  bg='#42c2f4', bd=5)\n",
+    "frame.place(relx=0.5, rely=0.1, relwidth=0.75, relheight=0.1, anchor='n')\n",
+    "#frame_window = C.create_window(100, 40, window=frame)\n",
+    "\n",
+    "textbox = tk.Entry(frame, font=40)\n",
+    "textbox.place(relwidth=0.65, relheight=1)\n",
+    "\n",
+    "submit = tk.Button(frame, text='Get Weather', font=40, command=lambda: get_weather(textbox.get()))\n",
+    "#submit.config(font=)\n",
+    "submit.place(relx=0.7, relheight=1, relwidth=0.3)\n",
+    "\n",
+    "lower_frame = tk.Frame(app, bg='#42c2f4', bd=10)\n",
+    "lower_frame.place(relx=0.5, rely=0.25, relwidth=0.75, relheight=0.6, anchor='n')\n",
+    "\n",
+    "bg_color = 'white'\n",
+    "results = tk.Label(lower_frame, anchor='nw', justify='left', bd=4)\n",
+    "results.config(font=40, bg=bg_color)\n",
+    "results.place(relwidth=1, relheight=1)\n",
+    "\n",
+    "weather_icon = tk.Canvas(results, bg=bg_color, bd=0, highlightthickness=0)\n",
+    "weather_icon.place(relx=.75, rely=0, relwidth=1, relheight=0.5)\n",
+    "\n",
+    "app.mainloop()"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "<div>\n",
+    "<img src=\"img/result_1.png\" width=\"600\"/>\n",
+    "</div>  "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "metadata": {
+    "ExecuteTime": {
+     "end_time": "2021-08-09T13:56:07.103439Z",
+     "start_time": "2021-08-09T13:55:57.792427Z"
+    }
+   },
+   "outputs": [],
+   "source": [
+    "'''\n",
+    "Python Program to Check Weather Forecast without icons\n",
+    "'''\n",
+    "\n",
+    "import tkinter as tk\n",
+    "import requests\n",
+    "\n",
+    "HEIGHT = 300\n",
+    "WIDTH = 500\n",
+    "\n",
+    "def test_function(entry):\n",
+    "\tprint(\"This is the entry:\", entry)\n",
+    "\n",
+    "# api.openweathermap.org/data/2.5/forecast?q={city name},{country code}\n",
+    "# a4aa5e3d83ffefaba8c00284de6ef7c3\n",
+    "\n",
+    "def format_response(weather):\n",
+    "\ttry:\n",
+    "\t\tname = weather['name']\n",
+    "\t\tdesc = weather['weather'][0]['description']\n",
+    "\t\ttemp = weather['main']['temp']\n",
+    "\n",
+    "\t\tfinal_str = 'City: %s \\nConditions: %s \\nTemperature (°F): %s' % (name, desc, temp)\n",
+    "\texcept:\n",
+    "\t\tfinal_str = 'There was a problem retrieving that information'\n",
+    "\n",
+    "\treturn final_str\n",
+    "\n",
+    "def get_weather(city):\n",
+    "\tweather_key = 'a4aa5e3d83ffefaba8c00284de6ef7c3'\n",
+    "\turl = 'https://api.openweathermap.org/data/2.5/weather'\n",
+    "\tparams = {'APPID': weather_key, 'q': city, 'units': 'imperial'}\n",
+    "\tresponse = requests.get(url, params=params)\n",
+    "\tweather = response.json()\n",
+    "\n",
+    "\tlabel['text'] = format_response(weather)\n",
+    "\n",
+    "\n",
+    "\n",
+    "root = tk.Tk()\n",
+    "\n",
+    "canvas = tk.Canvas(root, height=HEIGHT, width=WIDTH)\n",
+    "canvas.pack()\n",
+    "\n",
+    "background_image = tk.PhotoImage(file='img\\landscape.png')\n",
+    "background_label = tk.Label(root, image=background_image)\n",
+    "background_label.place(relwidth=1, relheight=1)\n",
+    "\n",
+    "frame = tk.Frame(root, bg='#80c1ff', bd=5)\n",
+    "frame.place(relx=0.5, rely=0.1, relwidth=0.75, relheight=0.1, anchor='n')\n",
+    "\n",
+    "entry = tk.Entry(frame, font=40)\n",
+    "entry.place(relwidth=0.65, relheight=1)\n",
+    "\n",
+    "button = tk.Button(frame, text=\"Get Weather\", font=40, command=lambda: get_weather(entry.get()))\n",
+    "button.place(relx=0.7, relheight=1, relwidth=0.3)\n",
+    "\n",
+    "lower_frame = tk.Frame(root, bg='#80c1ff', bd=10)\n",
+    "lower_frame.place(relx=0.5, rely=0.25, relwidth=0.75, relheight=0.6, anchor='n')\n",
+    "\n",
+    "label = tk.Label(lower_frame)\n",
+    "label.place(relwidth=1, relheight=1)\n",
+    "\n",
+    "root.mainloop()"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "<div>\n",
+    "<img src=\"img/result_2.png\" width=\"600\"/>\n",
+    "</div>  "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "hide_input": false,
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.8.8"
+  },
+  "toc": {
+   "base_numbering": 1,
+   "nav_menu": {},
+   "number_sections": true,
+   "sideBar": true,
+   "skip_h1_title": false,
+   "title_cell": "Table of Contents",
+   "title_sidebar": "Contents",
+   "toc_cell": false,
+   "toc_position": {},
+   "toc_section_display": true,
+   "toc_window_display": false
+  },
+  "varInspector": {
+   "cols": {
+    "lenName": 16,
+    "lenType": 16,
+    "lenVar": 40
+   },
+   "kernels_config": {
+    "python": {
+     "delete_cmd_postfix": "",
+     "delete_cmd_prefix": "del ",
+     "library": "var_list.py",
+     "varRefreshCmd": "print(var_dic_list())"
+    },
+    "r": {
+     "delete_cmd_postfix": ") ",
+     "delete_cmd_prefix": "rm(",
+     "library": "var_list.r",
+     "varRefreshCmd": "cat(var_dic_list()) "
+    }
+   },
+   "types_to_exclude": [
+    "module",
+    "function",
+    "builtin_function_or_method",
+    "instance",
+    "_Feature"
+   ],
+   "window_display": false
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 4
+}
