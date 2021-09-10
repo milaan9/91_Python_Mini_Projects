@@ -7,8 +7,11 @@
  
 # Test Internet Speed
 
-In this class, you'll learn how to test internet speed using python                                                            
+In this class, you'll learn how to test internet speed using python with and without GUI (Tkinter)                                                           
 
+<p align="center">  
+ <img src="result.png" width="550"/>
+</p> 
 
 ## Prerequisites:
 
