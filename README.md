@@ -60,7 +60,7 @@ Go [here](https://github.com/milaan9/91_Python_Mini_Projects) if you aren't here
 
 1. Go [here](https://github.com/milaan9/91_Python_Mini_Projects) if you aren't here already.
     
-2. Click the big green "Clone" button in the top right of the page, then click "[Download ZIP](https://github.com/milaan9/91_Python_Mini_Projects/archive/refs/heads/main.zip)".
+2. Click the big green "Code" button in the top right of the page, then click "[Download ZIP](https://github.com/milaan9/91_Python_Mini_Projects/archive/refs/heads/main.zip)".
 
     ![Download ZIP](img/dnld_rep.png)
 
