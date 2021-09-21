@@ -5,7 +5,7 @@
 <!--<img src="https://badges.pufler.dev/contributors/milaan9/01_Python_Introduction?size=50&padding=5&bots=true" alt="milaan9"/>-->
  
  
-# Create Digital Clock
+# Draw Sakura Tree
 
 In this class, you'll learn how to draw Sakura tree using python   
 
