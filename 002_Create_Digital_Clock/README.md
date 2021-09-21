@@ -7,11 +7,16 @@
  
 # Create Digital Clock
 
-In this class, you'll learn how to create digital clock using python   
+In this class, you'll learn how to create digital clock and stopwatch using python   
 
 <p align="center">  
  <img src="dclock.png" width="350"/>
 </p>  
+
+<p align="center">  
+ <img src="swatch.png" width="350"/>
+</p>  
+
 
 
 ## Prerequisites:
