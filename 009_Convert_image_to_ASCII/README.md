@@ -7,8 +7,14 @@
  
 # Convert Imane to ASCII Symbols
 
-In this class, you'll learn how to convert image to an ASCII symbols.    
+In this class, you'll learn how to convert image to an ASCII symbols, Grayscale image, Negative image and Pencil Sketch art.    
 
+- Result for ASCII symbols
+<p align="center">  
+ <img src="result.png" width="550"/>
+</p> 
+
+- Result for Grayscale image, Negative image and Pencil Sketch art
 <p align="center">  
  <img src="result.png" width="550"/>
 </p> 
