@@ -5,7 +5,7 @@
 <!--<img src="https://badges.pufler.dev/contributors/milaan9/01_Python_Introduction?size=50&padding=5&bots=true" alt="milaan9"/>-->
  
  
-# Convert Imane to ASCII Symbols
+# Convert Imane to ASCII Symbols, Grayscale image, Negative image and Pencil Sketch Art 
 
 In this class, you'll learn how to convert image to an ASCII symbols, Grayscale image, Negative image and Pencil Sketch art.    
 
