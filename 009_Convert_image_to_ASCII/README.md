@@ -16,7 +16,7 @@ In this class, you'll learn how to convert image to an ASCII symbols, Grayscale 
 
 - Result for Grayscale image, Negative image and Pencil Sketch art
 <p align="center">  
- <img src="result2.png" width="700"/>
+ <img src="result2.png" width="900"/>
 </p> 
 
 
