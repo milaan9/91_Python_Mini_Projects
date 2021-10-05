@@ -43,6 +43,7 @@ This repository contains all the mini-projects that I've worked on python.
 |	17	| **[017_Check_Weather_Forecast_with_GUI](https://github.com/milaan9/91_Python_Mini_Projects/tree/main/017_Check_Weather_Forecast_with_GUI)** | 
 |	18	| **[018_Draw_Sakura_Tree](https://github.com/milaan9/91_Python_Mini_Projects/tree/main/018_Draw_Sakura_Tree)** | 
 | 19 | **[019 Plagiarism Checker](https://github.com/milaan9/91_Python_Mini_Projects/tree/main/019_Plagiarism_Checker)** |
+
 These are **read-only** versions. However you can **`Run ▶`**  all the codes **online** by clicking here ➞ <a href="https://mybinder.org/v2/gh/milaan9/91_Python_Mini_Projects/HEAD"><img src="https://mybinder.org/badge_logo.svg" alt="binder"/></a>
 
 ---
