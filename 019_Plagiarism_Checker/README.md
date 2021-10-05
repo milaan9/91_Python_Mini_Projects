@@ -5,9 +5,9 @@
 <!--<img src="https://badges.pufler.dev/contributors/milaan9/01_Python_Introduction?size=50&padding=5&bots=true" alt="milaan9"/>-->
  
  
-# Draw Sakura Tree
+# Plagiarism Checker
 
-In this class, you'll learn how to check similarity between text documents using cosine similarity 
+In this class, you'll learn how to check similarity between text (.txt) documents using cosine similarity 
 
 In order to compute the simlilarity between on two text documents, the textual raw data is transformed into vectors ➡ **arrays of numbers** and then from that we are going to use a basic knowledge vector to compute the the similarity between them.
 
