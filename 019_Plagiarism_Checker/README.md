@@ -4,7 +4,7 @@
 </p> 
 <!--<img src="https://badges.pufler.dev/contributors/milaan9/01_Python_Introduction?size=50&padding=5&bots=true" alt="milaan9"/>-->
  
- 
+
 # Plagiarism Checker
 
 In this class, you'll learn how to check similarity between text (.txt) documents using cosine similarity 
