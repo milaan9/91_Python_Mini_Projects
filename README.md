@@ -42,10 +42,11 @@ This repository contains all the mini-projects that I've worked on python.
 |	16	| **[016_Web_Scraping_CoWin_Vaccine_Slots](https://github.com/milaan9/91_Python_Mini_Projects/tree/main/016_Web_Scraping_CoWin_Vaccine_Slots)** | 
 |	17	| **[017_Check_Weather_Forecast_with_GUI](https://github.com/milaan9/91_Python_Mini_Projects/tree/main/017_Check_Weather_Forecast_with_GUI)** | 
 |	18	| **[018_Draw_Sakura_Tree](https://github.com/milaan9/91_Python_Mini_Projects/tree/main/018_Draw_Sakura_Tree)** | 
-| 19 | **[019 Plagiarism Checker](https://github.com/milaan9/91_Python_Mini_Projects/tree/main/019_Plagiarism_Checker)** |
+| 19 | **[019_Plagiarism_Checker](https://github.com/milaan9/91_Python_Mini_Projects/tree/main/019_Plagiarism_Checker)** |
+| 20 | **[020_Road_Detection](https://github.com/milaan9/91_Python_Mini_Projects/tree/main/020_Road_Detection)** |
 
 These are **read-only** versions. However you can **`Run ▶`**  all the codes **online** by clicking here ➞ <a href="https://mybinder.org/v2/gh/milaan9/91_Python_Mini_Projects/HEAD"><img src="https://mybinder.org/badge_logo.svg" alt="binder"/></a>
-
+020_Road_Detection
 ---
 
 ## Frequently asked questions ❔
