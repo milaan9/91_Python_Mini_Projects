@@ -1,0 +1,279 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "<small><small><i>\n",
+    "All the IPython Notebooks in **Python Mini-Projects** lecture series by **[Dr. Milaan Parmar](https://www.linkedin.com/in/milaanparmar/)** are available @ **[GitHub](https://github.com/milaan9/91_Python_Mini_Projects)**\n",
+    "</i></small></small>"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Python Program to Test Internet Speed"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "metadata": {
+    "ExecuteTime": {
+     "end_time": "2021-09-10T17:48:54.140043Z",
+     "start_time": "2021-09-10T17:48:31.088355Z"
+    }
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Requirement already satisfied: speedtest-cli in c:\\programdata\\anaconda3\\lib\\site-packages (2.1.3)\n",
+      "Note: you may need to restart the kernel to use updated packages.\n"
+     ]
+    }
+   ],
+   "source": [
+    "pip install speedtest-cli  "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "metadata": {
+    "ExecuteTime": {
+     "end_time": "2021-09-10T17:49:29.419726Z",
+     "start_time": "2021-09-10T17:48:54.155670Z"
+    },
+    "scrolled": true
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Your ⏬ Download speed is 12.625 Mbps\n",
+      "Your ⏫ Upload speed is 18.225 Mbps\n",
+      "Your Ping is 8.219\n"
+     ]
+    }
+   ],
+   "source": [
+    "'''\n",
+    "Python Program to Test internet speed\n",
+    "'''\n",
+    "\n",
+    "# Import the necessary module!\n",
+    "import speedtest\n",
+    "\n",
+    "# Create an instance of Speedtest and call it st\n",
+    "st = speedtest.Speedtest() \n",
+    "\n",
+    "# Fetch the download speed\n",
+    "# Use of download method to fetch the speed and store in d_st\n",
+    "download = st.download()\n",
+    "\n",
+    "# Fetch the upload speed \n",
+    "# Use of upload method to fetch the speed and store in u_st\n",
+    "upload = st.upload()\n",
+    "\n",
+    "# Converting into Mbps\n",
+    "download = download/1000000\n",
+    "upload = upload/1000000\n",
+    "\n",
+    "# Display the result\n",
+    "print(\"Your ⏬ Download speed is\", round(download, 3), 'Mbps')\n",
+    "print(\"Your ⏫ Upload speed is\", round(upload, 3), 'Mbps')\n",
+    "\n",
+    "# Fetch the ping\n",
+    "st.get_servers([])\n",
+    "\n",
+    "ping = st.results.ping\n",
+    "\n",
+    "# Display the result\n",
+    "print(\"Your Ping is\", ping)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "metadata": {
+    "ExecuteTime": {
+     "end_time": "2021-09-10T17:52:58.023090Z",
+     "start_time": "2021-09-10T17:49:29.425588Z"
+    },
+    "scrolled": true
+   },
+   "outputs": [],
+   "source": [
+    "'''\n",
+    "Python Program to Test internet speed using Tkinter GUI\n",
+    "'''\n",
+    "\n",
+    "# Import the necessary modules!\n",
+    "import speedtest\n",
+    "from tkinter.ttk import *\n",
+    "from tkinter import *\n",
+    "import threading\n",
+    "\n",
+    "\n",
+    "root = Tk()\n",
+    "root.title(\"Test Internet Speed\")\n",
+    "root.geometry('380x260')\n",
+    "root.resizable(False, False)\n",
+    "root.configure(bg=\"#ffffff\")\n",
+    "root.iconbitmap('speed.ico')\n",
+    "\n",
+    "# design Label\n",
+    "Label(root, text ='TEST INTERNET SPEED', bg='#ffffff', fg='#404042', font = 'arial 23 bold').pack()\n",
+    "Label(root, text ='by @milaan9', bg='#fff', fg='#404042', font = 'arial 15 bold').pack(side =BOTTOM)\n",
+    "\n",
+    "# making label for show internet speed\n",
+    "down_label = Label(root, text=\"⏬ Download Speed - \", bg='#fff', font = 'arial 10 bold')\n",
+    "down_label.place(x = 90, y= 50)\n",
+    "up_label = Label(root, text=\"⏫ Upload Speed - \", bg='#fff', font = 'arial 10 bold')\n",
+    "up_label.place(x = 90, y= 80)\n",
+    "ping_label = Label(root, text=\"Your Ping - \", bg='#fff', font = 'arial 10 bold')\n",
+    "ping_label.place(x = 90, y= 110)\n",
+    "\n",
+    "# function for check speed\n",
+    "def check_speed():\n",
+    "    global download_speed, upload_speed\n",
+    "    speed_test= speedtest.Speedtest()\n",
+    "    download= speed_test.download()\n",
+    "    upload = speed_test.upload()\n",
+    "\n",
+    "    download_speed = round(download / (10 ** 6), 2)\n",
+    "    upload_speed = round(upload / (10 ** 6), 2)\n",
+    "    \n",
+    "# function for progress bar and update text\n",
+    "def update_text():\n",
+    "    thread=threading.Thread(target=check_speed, args=())\n",
+    "    thread.start()\n",
+    "    progress=Progressbar(root, orient=HORIZONTAL,\n",
+    "                         length=210, mode='indeterminate')\n",
+    "    progress.place(x = 85, y = 140)\n",
+    "    progress.start()\n",
+    "    while thread.is_alive():\n",
+    "        root.update()\n",
+    "        pass\n",
+    "    down_label.config(text=\"⏬ Download Speed - \"+str(download_speed)+\"Mbps\")\n",
+    "    up_label.config(text=\"⏫ Upload Speed - \"+str(upload_speed)+\"Mbps\")\n",
+    "\n",
+    "    # Fetch the ping\n",
+    "    st.get_servers([])\n",
+    "    ping = st.results.ping\n",
+    "    \n",
+    "    ping_label.config(text=\"Your Ping is - \"+str(ping))\n",
+    "    \n",
+    "    progress.stop()\n",
+    "    progress.destroy()\n",
+    "\n",
+    "# button for call to function\n",
+    "button = Button(root, text=\"Check Speed ▶\", width=30, bd = 0, bg = '#404042', fg='#fff', pady = 5, command=update_text)\n",
+    "button.place(x=85, y = 170)\n",
+    "root.mainloop()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Please enter website address(URL):www.facebook.com\n",
+      "Hostname: www.facebook.com\n",
+      "IP: 31.13.79.35\n"
+     ]
+    }
+   ],
+   "source": [
+    "'''\n",
+    "Python Program to Find IP Address of website\n",
+    "'''\n",
+    "\n",
+    "# importing socket library\n",
+    "import socket\n",
+    "\n",
+    "def get_hostname_IP():\n",
+    "    hostname = input(\"Please enter website address(URL):\")\n",
+    "    try:\n",
+    "        print (f'Hostname: {hostname}')\n",
+    "        print (f'IP: {socket.gethostbyname(hostname)}')\n",
+    "    except socket.gaierror as error:\n",
+    "        print (f'Invalid Hostname, error raised is {error}')\n",
+    "\n",
+    "get_hostname_IP()"
+   ]
+  }
+ ],
+ "metadata": {
+  "hide_input": false,
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.8.8"
+  },
+  "toc": {
+   "base_numbering": 1,
+   "nav_menu": {},
+   "number_sections": true,
+   "sideBar": true,
+   "skip_h1_title": false,
+   "title_cell": "Table of Contents",
+   "title_sidebar": "Contents",
+   "toc_cell": false,
+   "toc_position": {},
+   "toc_section_display": true,
+   "toc_window_display": false
+  },
+  "varInspector": {
+   "cols": {
+    "lenName": 16,
+    "lenType": 16,
+    "lenVar": 40
+   },
+   "kernels_config": {
+    "python": {
+     "delete_cmd_postfix": "",
+     "delete_cmd_prefix": "del ",
+     "library": "var_list.py",
+     "varRefreshCmd": "print(var_dic_list())"
+    },
+    "r": {
+     "delete_cmd_postfix": ") ",
+     "delete_cmd_prefix": "rm(",
+     "library": "var_list.r",
+     "varRefreshCmd": "cat(var_dic_list()) "
+    }
+   },
+   "types_to_exclude": [
+    "module",
+    "function",
+    "builtin_function_or_method",
+    "instance",
+    "_Feature"
+   ],
+   "window_display": false
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 2
+}
