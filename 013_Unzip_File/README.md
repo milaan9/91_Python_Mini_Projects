@@ -21,7 +21,7 @@ In this class, you'll learn how to Unzip File using python
 
 **[ZIP](https://en.wikipedia.org/wiki/ZIP_%28file_format%29)** is an archive file format that supports lossless data compression. A ZIP file may contain one or more files or directories that may have been compressed.
 
-ZIP files can come handy for a lot different things, we make use of it on a regular basis.
+ZIP files can come in handy for a lot of different things, we make use of them on a regular basis.
 
 Uses for Zip File:
 
@@ -32,11 +32,11 @@ Uses for Zip File:
 ---
 ## Install Necessary Modules:
 
-Since **`zipfile`** is in-built module, hence no need to install it separately.
+Since **`zipfile`** is an in-built module, hence no need to install it separately.
 
 **[ZipFile module](https://docs.python.org/3/library/zipfile.html)** provides tools to create, read, write, append, and list a ZIP file. Any advanced use of this module will require an understanding of the format, as defined in PKZIP Application Note.
 
-Now that you are familiar with Zip file use cases and have acquired basic knowledge of ZipFile module, we can move forward to the coding section.
+Now that you are familiar with Zip file use cases and have acquired basic knowledge of the ZipFile module, we can move forward to the coding section.
 
 ---
 
@@ -56,7 +56,7 @@ Go [**`here`**](https://github.com/milaan9/91_Python_Mini_Projects) if you aren'
 
     ![Download ZIP](https://github.com/milaan9/91_Python_Mini_Projects/blob/main/img/dnld_rep.png)
 
-2. Extract the ZIP and open it. Unfortunately I don't have any more specific instructions because how exactly this is done depends on which operating system you run.
+2. Extract the ZIP and open it. Unfortunately, I don't have any more specific instructions because how exactly this is done depends on which operating system you run.
     
 3. Launch ipython notebook from the folder which contains the notebooks. Open each one of them
   
@@ -64,7 +64,7 @@ Go [**`here`**](https://github.com/milaan9/91_Python_Mini_Projects) if you aren'
     
 This will clear all the outputs and now you can understand each statement and learn interactively.
 
-If you have git and you know how to use it, you can also clone the repository instead of downloading a zip and extracting it. An advantage with doing it this way is that you don't need to download the whole tutorial again to get the latest version of it, all you need to do is to pull with git and run ipython notebook again.
+If you have git and you know how to use it, you can also clone the repository instead of downloading a zip and extracting it. An advantage of doing it this way is that you don't need to download the whole tutorial again to get the latest version of it, all you need to do is to pull with git and run ipython notebook again.
 
 ---
 

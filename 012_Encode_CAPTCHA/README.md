@@ -37,7 +37,7 @@ The most common form is Image CAPTCHA. You are shown an image and if you are a r
 ### Types of CAPTCHA
 
 #### 1. Image CAPTCHA
-The CAPTCHA presents characters in a way that is alienated and requires interpretation. Alienation can involve scaling, rotation, distorting characters. It can also involve overlapping characters with graphic elements such as colour, background noise, lines, arcs, or dots. This alienation provides protection against bots with insufficient text recognition algorithms but can also be difficult for humans to interpret.
+The CAPTCHA presents characters in a way that is alienated and requires interpretation. Alienation can involve scaling, rotation, and distorting characters. It can also involve overlapping characters with graphic elements such as colour, background noise, lines, arcs, or dots. This alienation provides protection against bots with insufficient text recognition algorithms but can also be difficult for humans to interpret.
 
 <p align="center">  
  <img src="CAPTCHA_1.png" width="500"/>
@@ -77,7 +77,7 @@ Go [**`here`**](https://github.com/milaan9/01_Python_Introduction) if you aren't
 
     ![Download ZIP](https://github.com/milaan9/91_Python_Mini_Projects/blob/main/img/dnld_rep.png)
 
-2. Extract the ZIP and open it. Unfortunately I don't have any more specific instructions because how exactly this is done depends on which operating system you run.
+2. Extract the ZIP and open it. Unfortunately, I don't have any more specific instructions because how exactly this is done depends on which operating system you run.
     
 3. Launch ipython notebook from the folder which contains the notebooks. Open each one of them
   
@@ -85,7 +85,7 @@ Go [**`here`**](https://github.com/milaan9/01_Python_Introduction) if you aren't
     
 This will clear all the outputs and now you can understand each statement and learn interactively.
 
-If you have git and you know how to use it, you can also clone the repository instead of downloading a zip and extracting it. An advantage with doing it this way is that you don't need to download the whole tutorial again to get the latest version of it, all you need to do is to pull with git and run ipython notebook again.
+If you have git and you know how to use it, you can also clone the repository instead of downloading a zip and extracting it. An advantage of doing it this way is that you don't need to download the whole tutorial again to get the latest version of it, all you need to do is to pull with git and run ipython notebook again.
 
 ---
 

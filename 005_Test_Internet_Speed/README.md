@@ -7,7 +7,7 @@
  
 # Test Internet Speed
 
-In this class, you'll learn how to test internet speed using python with and without GUI (Tkinter)                                                           
+In this class, you'll learn how to test the internet speed using python with and without GUI (Tkinter)                                                           
 
 <p align="center">  
  <img src="result.png" width="400"/>
@@ -28,7 +28,7 @@ Open your [![Anaconda](https://img.shields.io/badge/Anaconda-342B029.svg?&style=
  -       pip install speedtest-cli  
  
  
-**[`speedtest-cli`](https://pypi.org/project/speedtest-cli/)** is a Python library which provides Command line interface for testing internet bandwidth using **[speedtest.net](http://speedtest.net/)**
+**[`speedtest-cli`](https://pypi.org/project/speedtest-cli/)** is a Python library which provides a Command line interface for testing internet bandwidth using **[speedtest.net](http://speedtest.net/)**
 
 Once Installed now we can import it inside our python code.
 
@@ -50,7 +50,7 @@ Go [**`here`**](https://github.com/milaan9/91_Python_Mini_Projects) if you aren'
 
     ![Download ZIP](https://github.com/milaan9/91_Python_Mini_Projects/blob/main/img/dnld_rep.png)
 
-2. Extract the ZIP and open it. Unfortunately I don't have any more specific instructions because how exactly this is done depends on which operating system you run.
+2. Extract the ZIP and open it. Unfortunately, I don't have any more specific instructions because how exactly this is done depends on which operating system you run.
     
 3. Launch ipython notebook from the folder which contains the notebooks. Open each one of them
   
@@ -58,7 +58,7 @@ Go [**`here`**](https://github.com/milaan9/91_Python_Mini_Projects) if you aren'
     
 This will clear all the outputs and now you can understand each statement and learn interactively.
 
-If you have git and you know how to use it, you can also clone the repository instead of downloading a zip and extracting it. An advantage with doing it this way is that you don't need to download the whole tutorial again to get the latest version of it, all you need to do is to pull with git and run ipython notebook again.
+If you have git and you know how to use it, you can also clone the repository instead of downloading a zip and extracting it. An advantage of doing it this way is that you don't need to download the whole tutorial again to get the latest version of it, all you need to do is to pull with git and run ipython notebook again.
 
 ---
 
