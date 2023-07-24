@@ -35,7 +35,7 @@ Barcodes only use horizontal information.
 #### 3.1. Static QR Code:
 A Static QR Code contains information that is fixed and uneditable once the Code has been generated.
 
-Usecases:
+Use cases:
  - QR Codes in business cards or product packaging
  - QR Codes for personal use like a party invitation
  - QR Codes for Gyms
@@ -43,7 +43,7 @@ Usecases:
 #### 3.2. Dynamic QR Code:
 Dynamic QR Codes allow you to update, edit and modify the type of the QR Code however many times you need i.e. the content is editable.
 
-Usecases:
+Use cases:
  - QR Codes for Coupons
  - QR Codes for Social media
 
@@ -58,7 +58,7 @@ Open your [![Anaconda](https://img.shields.io/badge/Anaconda-342B029.svg?&style=
  -       pip install pypng     
  
  
-**`pyqrcode`** module is used to create QR Codes. It is designed to be as simple and as possible. It does this by using sane defaults and autodetection to make creating a QR Code very simple.
+**`pyqrcode`** module is used to create QR Codes. It is designed to be as simple as possible. It does this by using sane defaults and autodetection to make creating a QR Code very simple.
 
 Once Installed now we can import it inside our python code.
 
@@ -80,7 +80,7 @@ Go [**`here`**](https://github.com/milaan9/91_Python_Mini_Projects) if you aren'
 
     ![Download ZIP](https://github.com/milaan9/91_Python_Mini_Projects/blob/main/img/dnld_rep.png)
 
-2. Extract the ZIP and open it. Unfortunately I don't have any more specific instructions because how exactly this is done depends on which operating system you run.
+2. Extract the ZIP and open it. Unfortunately, I don't have any more specific instructions because how exactly this is done depends on which operating system you run.
     
 3. Launch ipython notebook from the folder which contains the notebooks. Open each one of them
   
@@ -88,7 +88,7 @@ Go [**`here`**](https://github.com/milaan9/91_Python_Mini_Projects) if you aren'
     
 This will clear all the outputs and now you can understand each statement and learn interactively.
 
-If you have git and you know how to use it, you can also clone the repository instead of downloading a zip and extracting it. An advantage with doing it this way is that you don't need to download the whole tutorial again to get the latest version of it, all you need to do is to pull with git and run ipython notebook again.
+If you have git and you know how to use it, you can also clone the repository instead of downloading a zip and extracting it. An advantage of doing it this way is that you don't need to download the whole tutorial again to get the latest version of it, all you need to do is to pull with git and run ipython notebook again.
 
 ---
 
